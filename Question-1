@@ -1,0 +1,13 @@
+input("Name of the book:")
+p_1=int(input("Price"))
+n_1=int(input("number of books:"))
+input("Name of the book:")
+p_2=int(input("Price"))
+n_2=int(input("number of books:"))
+input("Name of the book:")
+p_3=int(input("Price"))
+n_3=int(input("number of books:"))
+GST=0.12
+D_C=250
+total=p_1*n_1+p_2*n_2+p_3*n_3
+print("Invoice Bill:",total+(total*GST)+D_C)
